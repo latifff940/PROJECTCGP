@@ -1,0 +1,23 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden; /* Mencegah scrollbar */
+}
+
+.swiper {
+    width: 100vw; /* 100% dari lebar viewport */
+    height: 100vh; /* 100% dari tinggi viewport */
+}
+
+.swiper-slide {
+    display: flex; /* Memungkinkan konten di dalam slide untuk diatur */
+    justify-content: center; /* Pusatkan konten secara horizontal */
+    align-items: center; /* Pusatkan konten secara vertikal */
+}
+
+iframe {
+    width: 100%; /* Mengisi lebar slide */
+    height: 100%; /* Mengisi tinggi slide */
+    border: none; /* Menghilangkan border */
+}
